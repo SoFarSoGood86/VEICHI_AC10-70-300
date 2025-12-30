@@ -1,0 +1,10 @@
+{
+  "domain": "veichi_ac70",
+  "name": "VEICHI AC70 VFD",
+  "version": "1.0.0",
+  "documentation": "https://github.com/SoFarSoGood86/veichi_ac70",
+  "requirements": ["pymodbus>=3.5.2"],
+  "codeowners": ["@SoFarSoGood86"],
+  "config_flow": true,
+  "iot_class": "local_polling"
+}
