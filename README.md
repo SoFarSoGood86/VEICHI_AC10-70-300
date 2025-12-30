@@ -68,7 +68,7 @@ cards:
         name: Sens
 ```
 
-### Matériel compatible
+## Matériel compatible
 - Waveshare Ethernet (poe) to RS232/485/422. [pdf](https://www.waveshare.com/wiki/RS232/485/422_TO_POE_ETH_(B))
 - VEICHI AC10 [pdf](https://www.veichi.com/d/file/download/low-voltage-drives/ac10-series-frequency-inverter-manual-v1.pdf)
 - VEICHI AC70 [pdf](https://www.veichi.com/d/file/p/20180122/7824c2072d7575f857710d8a31bf2e25.pdf)
