@@ -30,6 +30,26 @@ entities:
   - sensor.ac70_puissance_moteur
   - sensor.ac70_temperature_variateur
 ```
+
+```yaml
+type: vertical-stack
+cards:
+  - type: gauge
+    entity: sensor.ac70_frequence_reelle
+    min: 0
+    max: 50
+    name: Fréquence (Hz)
+
+  - type: horizontal-stack
+    cards:
+      - type: button
+        entity: switch.ac70_marche
+        name: Marche
+      - type: button
+        entity: switch.ac70_sens_rotation
+        name: Sens
+```
+
 #### Matériel compatible
 - Waveshare RS485 Ethernet
 - VEICHI AC70
