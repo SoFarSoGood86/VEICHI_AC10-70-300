@@ -12,9 +12,23 @@ Intégration HACS pour piloter un variateur VEICHI AC70 via Waveshare ETH RS485 
 - Diagnostics Home Assistant
 
 ## Installation
-1. Ajouter le dépôt GitHub dans HACS
-2. Installer l'intégration
-3. Configurer l'adresse IP (192.168.1.254)
+1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories
+2. Ajouter l’URL du dépôt dans HACS :
+   `https://github.com/SoFarSoGood86/waveshare_serial_poe`
+3. Installer l'intégration, choisir **Category: Integration**
+4. Configurer l'adresse IP (192.168.1.254)
+5. Installer l’intégration et redémarrer HA
+
+## Configuration Waveshare ETH/Série RS232 / RS485-422
+
+- Renseigner les champs :
+
+   * **IP du boîtier Waveshare** : ex. `192.168.1.254` (ou autre selon configuration)
+   * **Port TCP** : ex. `23` (ou autre selon configuration)
+   * **Mode physique** : RS-485
+   * **Slave Modbus** : ex. `1`(ou autre selon configuration)
+
+- Valider et sauvegarder
 
 ## Lovelace card example :
 
