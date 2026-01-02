@@ -33,6 +33,20 @@
 
 - Valider et sauvegarder
 
+## VEICHI AC10 yaml configuration :
+
+```yaml
+modbus:
+  - name: veichi_ac10
+    type: tcp
+    host: 192.168.1.254
+    port: 502
+    delay: 1
+    timeout: 5
+
+    Coming soon
+```
+
 ## VEICHI AC70 yaml configuration :
 
 ```yaml
