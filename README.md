@@ -6,7 +6,7 @@
 
 ## Fonctions :
 - Marche / Arrêt
-- Sense de Rotation
+- Sens de Rotation
 - Réglage fréquence 0–50 Hz
 - Courant, puissance, température
 - Config UI
