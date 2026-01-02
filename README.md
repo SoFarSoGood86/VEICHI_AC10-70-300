@@ -1,8 +1,8 @@
 <img width="1197" height="268" alt="VEICHI Header" src="https://github.com/user-attachments/assets/8c27f4cc-082f-4173-a9cd-b0d24bda7c32" />
 
 # VEICHI AC10-70-300
-- HACS integration to control a variable frequency drive (AFD) model VEICHI AC70, AC70 and AC300.
-- Modbus RTU/TCP control via Waveshare ETH Serial node RS232-RS485/422.
+- Intégration HACS de contrôle pour variateurs de vitesse de fréquence pour les séries VEICHI AC10, AC70 et AC300.
+- Protocole de controle Modbus RTU/TCP -> Waveshare ETH Serial node RS232-RS485/422.
 
 ## Fonctions :
 - Marche / Arrêt
