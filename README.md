@@ -4,7 +4,7 @@
 - HACS integration to control a variable frequency drive (AFD) model VEICHI AC70, AC70 and AC300.
 - Modbus RTU/TCP control via Waveshare ETH Serial node RS232-RS485/422.
 
-## Features
+## Features :
 - Star / Stop
 - Rotation sens
 - Réglage fréquence 0–50 Hz
@@ -12,7 +12,7 @@
 - Config UI
 - Diagnostics Home Assistant
 
-## Installation
+## Installation :
 1. Ouvrir Home Assistant → HACS → Integrations → Custom repositories.
 2. Ajouter l’URL du dépôt dans HACS :
    ```
@@ -22,7 +22,7 @@
 4. Configurer l'adresse IP (192.168.1.254).
 5. Installer l’intégration et redémarrer HA.
 
-## Configuration Waveshare ETH/Série RS232 / RS485-422
+## Waveshare ETH to Serial RS232 / RS485-422 configuration :
 
 - Renseigner les champs :
 
